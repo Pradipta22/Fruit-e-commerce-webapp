@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+.top{
+    background: rgb(0, 100, 0);
+}
+.top ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.top ul li{
+    margin: 1px 25px;
+    padding: 1px 20px;
+    font-size: medium;
+}
+.nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 1px;
+}
+.bottom{
+    display: flex;
+}
+.brand p{
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+   letter-spacing: 2px;
+   font-size: 30px;
+   font-family: 'Zilla Slab Highlight', cursive;
+   color:#7fd12e ;
+}
+.nav-links{
+    display: flex;
+    margin-top: 1rem;
+}
+.nav-links li{
+    margin: 1px 25px;
+    list-style: none;
+}
+.nav-links a{
+    padding: 1px 0px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.nav-links i{
+    margin-top: 0.3rem;  
+}
+.carousel-inner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: 'Patrick Hand', cursive;
+  }
+.center h4{
+    font-size:30px ;
+    font-family: 'Poppins', sans-serif;
+}
+.center .btn{
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #7fd12e;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+.center .btn:hover{
+    background-color: transparent;
+}
+.icon{
+    padding: 2px;
+    display: inline-flex;
+    margin-top: 60px;
+}
+.contain{
+  margin-left: 100px;
+  margin-right: 80px;
+}
+.contain img:hover{
+  background-color:rgb(143, 188, 143);
+}
+.flaticon1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: groove;
+    background-color: pink;
+    padding: 5px;
+}
+.flaticon2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: groove;
+    background-color: lightblue;
+    padding: 5px;
+}
+.flaticon3 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: groove;
+    background-color:lightgray;
+    padding: 5px;
+}
+.flaticon4 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: groove;
+    background-color: lightsteelblue;
+    padding: 5px;
+}
+.star{
+  margin-top: 60px;
+}
+  
+.imgbox{
+    display: inline-flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    
+}
+.imgbox#firstrow{
+ flex-direction: row;
+}
+.imgbox#secondrow{
+    flex-direction: row-reverse;
+}
+.imgbox img{
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px -5px;
+}
+.imgbox img2{
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px -5px;
+}
+.text{
+   margin-top: 60px;
+}
+.text2{
+    margin-top: 60px;
+    margin-left: 30px;
+ }
+.sun{
+  font-family: 'Montserrat', sans-serif;
+}
+.moon{
+  font-family: 'Montserrat', sans-serif;
+    float: right;
+    
+}
+.moon2{
+    float: left;
+    
+}
+.heading{
+  font-family: 'Kiwi Maru', serif;
+}
+.testimonials{
+    padding: 5px;
+    margin-top: 50px;
+    color: #434343;
+    text-align: center;
+  }
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+.border{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+  }
+  
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+.testimonial{
+    background: #fff;
+    padding: 30px;
+  }
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+.stars{
+    color: #6ab04c;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen and (max-width:960px) {
+  .col{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background: #eff3f8;
+}
+.container{
+    padding-top: 50px;
+}
+.container h2{
+    text-align: center;
+    padding: 5px;
+}
+.slick-slide{
+    margin: 0 20px;
+}
+.slick-slide img{
+    width: 100%;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 30%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 250px;
+}
+.container2{
+    background: url(./images/bg.jpg) no-repeat center;
+    background-color: blue;
+    background-size: cover;
+    padding: 10px;
+    
+    color: black;
+    margin-top: 50px;
+
+  }
+.container2 p {
+    max-width: 800px;
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .letter{
+    color: rgb(240, 255, 255);
+  }
+.email-box{
+    height: 40px;
+   justify-content: center;
+    display: inline-flex; 
+   
+    
+  }
+.email-box i{
+    background: rgb(210, 105, 30);
+    width: 40px;
+    line-height: 40px;
+  }
+.tbox2,.btn2{
+    border: none;
+    outline: none;
+  }
+.tbox2{
+    width: 0px;
+    transition: 0.6s;
+  }
+.email-box:hover > .tbox2,.tbox2:focus{
+    width: 260px;
+    padding: 0 10px;
+  }
+.btn2{
+    background: black;
+    color: white;
+    padding:  10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    margin-top: 50px;
+  }
+  .footer > *{
+    flex: 1 100%;
+  }
+  .footer-left{
+   margin-right: 1.25em;
+   margin-bottom: 2em;
+  }
+  .footer-left img{
+    width: 50%;
+  }
+  .footer h2{
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .footer ul{
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer li{
+    line-height: 2em;
+  }
+  .footer a{
+    text-decoration: none;
+  }
+  .footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-flow: row wrap
+  }
+  .footer-right > *{
+    flex: 50%;
+    margin-right: 1.25em;
+  }
+  .box a{
+    color: #999;
+  }
+  .footer-bottom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+  }
+  .footer-left p{
+    padding-right: 20%;
+    color: #999;
+  }
+  
+  .social a{
+   background: #364a62;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   margin-right: 10px;
+  }
+  .social a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+  }
+  @media screen and (min-width: 600px){
+    .footer-right > *{
+      flex: 1;
+    }
+    .footer-left{
+      flex: 1 0px;
+    }
+    .footer-right{
+      flex: 2 0px;
+    }
+  }
+  td,tr{
+    padding: 50px;
+    margin: 10px;
+  }
+ 
+ .tab{
+   margin: 5%;
+   margin:5%;
+   border: 2px solid rgb(87, 85, 85);
+ }
+
+  .size1{
+    
+    height: 300px;
+    width: 300px;
+    position:relative;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 30px 1px rgb(20, 20, 20);
+    
+}
+.size2{
+  height: 300px;
+  width: 350px;
+}
+
+input
+{
+  align-items: center;  
+}
+[value="EXPLORE"]:hover
+{
+    border-style: groove;
+
+}
+.back
+{
+    background-image: url('./images/500_F_106047905_pLLk5XQa0AmkMJ2dUgQCPYLhl6gV8jto.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:450px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 30px 1px rgb(20, 20, 20);
+
+}

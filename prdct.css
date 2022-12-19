@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.top{
+    background: #7fd12e;
+}
+.top ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.top ul li{
+    display: inline-block;
+    margin: 1px 25px;
+    padding: 1px 100px;
+    font-size: medium;
+}
+ nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 1px;
+}
+.bottom{
+    display: flex;
+}
+.brand p{
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+   letter-spacing: 2px;
+   font-size: 30px;
+   font-family: 'Zilla Slab Highlight', cursive;
+   color:#7fd12e ;
+}
+.nav-links{
+    display: flex;
+    margin-top: 1rem;
+}
+.nav-links li{
+    margin: 1px 25px;
+    list-style: none;
+}
+.nav-links a{
+    padding: 1px 0px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.nav-links i{
+    margin-top: 0.3rem;  
+}
+.center img {
+    margin-top: 20px;
+    width: 100%;
+}
+.prdct{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 50px 35px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#7fd12e ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.product-list{ 
+   padding:3em ;
+   display: inline-block;
+}
+.product-list .card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0px 10px 5px #b2bec3;
+    text-align: center;
+    max-width: 65%;
+}
+.card .title{
+    color: #7fd12e;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+.card img{
+    max-width: 80%;
+}
+.card .text{
+    text-align: left;
+    margin-left:2em ;
+    font-size: 11px;
+    color: rgb(138, 131, 131);
+    font-family: 'Poppins', sans-serif;
+}
+.add-btn{
+  background-color:#7fd12e ;
+    border: none;
+    padding: 0.5em;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.add-btn:hover{
+    box-shadow: #b2bec3;
+    background-color:green ;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
+}
+
